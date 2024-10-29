@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+.App {
+  text-align: center;
+  background-image: linear-gradient(to bottom left, #d7d2cc 0%, #304352 100%);
+  width: 900px;
+  margin: 10px auto;
+  padding: 30px;
+  font-family: "Spline Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  box-shadow: 10px 10px 50px #304352;
+}
+body {
+  background-image: linear-gradient(to top right, #d7d2cc 0%, #304352 100%);
+  background-repeat: no-repeat;
+  padding: 30px;
+}
+h1 {
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  /* font-optical-sizing: auto; */
+  font-weight: 900;
+  font-style: normal;
+}
+form {
+  width: 800px;
+  display: inline-block;
+}
+form label {
+  display: inline-block;
+  width: 200px;
+  text-align: right;
+  font-size: 1.2rem;
+
+}
+form div  {
+  margin:10px;
+}
+.colonSpacing {
+  margin: 4px;
+}
+
+.resultSpanRef {
+  width: 100px;
+  display: inline-block;
+  margin: 8px;
+}
+
+input[type=text], input[type=number] {
+  width: 30%;
+  height: 30px;
+  border-radius: 20px;
+  border: 0px;
+  filter: drop-shadow(10px 10px 50px #304352);
+  margin-left: 5px;
+  padding: 5px;
+}
+
+button  {
+  width:175px;
+  height: 40px;
+  border-radius: 30px;
+  border: 0px;
+  background-image: linear-gradient(to bottom right, #d7d2cc 0%, #304352 100%);
+  color: white;
+  box-shadow: 10px 10px 50px #304352;
+  margin: 20px;
+  font-family: "Spline Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.resultLabelDiv {
+  color: white;
+}
